@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#Inicio{
+    background-color: blue;
+    padding: 5px 5px 5px 5px;
+     }
+    
+    #Inicio li{
+        list-style-type: none;
+        display: inline-block;
+        }
+
+#ElPais{
+    width:50px;
+    height:11px;
+    text-align: left;
+}
+
+#Thinkbig{
+    color:white;
+    font-weight:lighter;
+    font-family:'Arial Narrow';
+    font-size: 8px;
+    font-style: oblique;
+    padding-left: 220px;
+}
+
+#Empresa{
+    color:greenyellow;
+    font-weight:lighter;
+    font-family:'Arial Narrow';
+    font-size: 8px;
+    font-style: oblique;
+}
+
+#Proyecto{
+    color:white;
+    font-weight:lighter;
+    font-family: Arial;
+    font-size: 5px;
+    text-align: right;
+    padding-left: 170px;
+}
+
+#Telefonica{
+    width:40px;
+    height:20px;
+}
+
+#FotoInicio{
+    width:100%;
+}
+
+#Image{
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+}
+
+article{
+    width: 100%;
+ /* background-color: antiquewhite;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#NoticiaNormal{
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+    color:black;
+    
+
+}
+    #NoticiaNormal h1{
+        font-size: 25px;
+        font-weight: normal;
+        font-family: Georgia;
+        
+    }
+
+    #NoticiaNormal h2{
+        font-size: 7.7px;
+        font-weight: lighter;
+        font-family: Verdana;
+        
+    }
+
+#LogosInicio{
+    width: 100%;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 2%;
+}
+
+#LogoTwitter{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+}
+
+.Importante{
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+
+}
+
+.Cursiva{
+    font-style: oblique;
+}
+
+#RefIlustraciones{
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+    color:gray;
+}
+
+    #RefIlustraciones h1{
+        padding: 3%;
+        font-size: 7.5px;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+     #RefIlustraciones h2{
+        padding-bottom: 10%;
+        font-size: 6px;
+        font-weight: bold;
+        font-family: Helvetica;
+    }
+
+#Texto1{
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 7.7px;
+    font-weight: lighter;
+    font-family: Verdana;
+}
+
+    p::first-letter{
+        float: left;
+        color: black;
+        font-size: 80px;
+        line-height: 60px;
+        padding: 2px;
+        font-family:'Franklin Gothic Medium';
+        font-weight: bolder;
+        margin-right: 5px;
+
+    }
+
+    #Texto1 h1{
+        padding-bottom: 5%;
+        font-size: 7.7px;
+        font-weight: lighter;
+        font-family: Verdana;
+    }
+
+    #Texto1 h2{
+        font-size: 10px;
+        font-weight: bold;
+        font-family: Arial;
+    }
+    
+    #Listado{
+        list-style-type:none;
+     }
+    
+     #Listado li{
+        display: inline-block;
+        padding: 10px;
+    }
+
+#Thinkbig2{
+    color:black;
+    font-weight:lighter;
+    font-family:'Arial Narrow';
+    font-size: 10px;
+    font-style: oblique;
+    padding-left: 43%;
+    padding-bottom: 5%;
+}
+
+#Empresa2{
+    color:greenyellow;
+    font-weight:lighter;
+    font-family:'Arial Narrow';
+    font-size: 10px;
+    font-style: oblique;
+    padding-right: 40%;
+    padding-bottom: 5%;
+}
