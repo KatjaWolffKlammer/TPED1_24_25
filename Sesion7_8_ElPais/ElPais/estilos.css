@@ -11,6 +11,13 @@ body {
     
 }
 
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+
 #Inicio{
     background-color: blue;
     padding: 5px 5px 5px 5px;
