@@ -11,21 +11,21 @@ body {
     
 }
 
-header {
+.flex-container {
     position: fixed;
     width: 100%;
-  }
-
-#Inicio{
+    display: flex;
+    justify-content: space-between;
     background-color: blue;
     padding: 5px 5px 5px 5px;
-     }
-    
-    #Inicio li{
-        width: 33%;
-        list-style-type: none;
-        display: inline-block;
-        }
+  }
+  
+  .flex-container > div {
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
 
 #ElPais{
     width:50px;
