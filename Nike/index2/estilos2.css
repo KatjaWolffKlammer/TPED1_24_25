@@ -1,0 +1,85 @@
+ 
+  div {
+    padding: 60px;
+    }
+  
+  ul {
+      list-style: none;
+  }
+  
+  body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+  
+  #Inicio{
+    height: 850px;
+    background-image: url("images/fondo.jpg");
+ }
+
+ #LinkInicio{
+    list-style-type: none;
+    text-align: center;
+ }
+
+ #LinkInicio li{
+    display: inline-block;
+    padding: 10px;
+}
+
+ #Centro{
+    margin-left: 150px;
+}
+    #Centro h1 {
+        font-weight: lighter;
+        font-size: 20pt;
+    }
+    
+    #Centro h2 {
+        font-weight: lighter;
+        color: gray;
+        font-size: 6.25pt;
+        opacity: 0.6;
+        margin-bottom: 90pt;
+    }
+
+    #Centro h3 {
+        font-weight: lighter;
+        font-size: 12pt;
+    
+    }
+    
+    #Centro h4 {
+        font-weight: lighter;
+        color: gray;
+        font-size: 8.5pt;
+        opacity: 0.6;
+        margin-top: 115pt;
+        margin-bottom: 170px;
+    
+    }
+
+ #Pie{
+    padding: 200px 30px 200px;
+    background-color: black;
+    color: white;
+}
+
+    #Pie h5 {
+        font-weight: lighter;
+        margin-left: 150px;
+        font-size: 13pt;
+    }
+ 
+#AlgunSitio:hover{
+    color: rebeccapurple;
+    text-decoration: underline;
+   }
+
+#NingunSitio:hover{
+    text-decoration: line-through;
+   }
+ 
