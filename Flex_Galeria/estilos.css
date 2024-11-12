@@ -27,6 +27,11 @@
   img {
     width: 100%;
     height: auto;
+    filter: saturate(1);
+}
+
+a:hover img {
+  filter: saturate(0);
 }
 
 .text {
