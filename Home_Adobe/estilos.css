@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/fondo-1400x860.jpg);
+    background-size: cover;
+  }
+
+  header {
+   /* background-color: blueviolet; */
+    height: 150px;
+  }
+
+    #Adobe {
+        float: left;
+        padding-left: 90px;
+    }
+
+    img {
+        width: 70px;
+    }
+
+    #Menu {
+        float: right;
+        padding-top: 15px;
+        width: 35%;
+    }
+
+        span.a {
+            color:white;
+            font-weight:lighter;
+            font-family:'Arial Narrow';
+            padding-right: 50px;
+            
+        }
+
+section {
+    height: 500px;
+   /* background-color: aqua; */
+    }
+
+.columna1{
+    float: left;
+    padding-left: 90px;
+    width: 47%;
+    height: 170px;
+    font-family: Verdana;
+   /* background-color: rgb(255, 0, 195); */
+}
+
+.columna1 h1{
+    padding-bottom: 20px;
+}
+
+.columna1 h5{
+    padding-bottom: 20px;
+}
+
+.columna1 p{
+    padding-bottom: 10px;
+    font-family: Verdana;
+    font-size: 13px;
+    color: lightskyblue;
+}
+
+.boton{
+    width: 150px;
+
+    font-family: Verdana;
+    font-size: 13px;
+    color: white;
+    background-color: lightskyblue;
+    border-radius: 4px;
+    padding: 10px 30px 10px 30px;
+
+}
+
+.columna2{
+    position: absolute;
+    right: 90px;
+    bottom: 10px;
+    width: 45%;
+    height: 170px;
+   /* background-color: rgb(255, 242, 0); */
+}
+
+.programas {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+   /* background-color: blue; */
+    padding-top: 10px;
+  }
+
+#Photoshop{
+    width: 30px;
+}
+
+#Illustrator{
+    width: 30px;
+}
+
+#Paleta{
+    width: 30%;
+}
+  
+
+
+
+
+
+  
+ 
+
+  
+
+  
+
+
+
+
+
+  
+  

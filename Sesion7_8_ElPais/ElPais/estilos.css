@@ -14,18 +14,12 @@ body {
 .flex-container {
     position: fixed;
     width: 100%;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     background-color: blue;
     padding: 5px 5px 5px 5px;
   }
-  
-  .flex-container > div {
-    list-style-type: none;
-    display: inline-block;
-    width: 100px;
-    text-align: center;
-}
 
 #ElPais{
     width:70px;
@@ -62,7 +56,7 @@ body {
     text-align: center;
 }
 
-article{
+section{
     width: 100%;
  /* background-color: antiquewhite;*/
     margin-right: auto;
