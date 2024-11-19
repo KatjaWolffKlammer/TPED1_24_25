@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -13,12 +13,16 @@ body {
   }
 
   header {
-   /* background-color: blueviolet; */
+    /*background-color: blueviolet;*/
+    width: 100%;
     height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
   }
 
     #Adobe {
-        float: left;
+        align-items: flex-start;
         padding-left: 90px;
     }
 
@@ -27,7 +31,7 @@ body {
     }
 
     #Menu {
-        float: right;
+        align-items: flex-end;
         padding-top: 15px;
         width: 35%;
     }
@@ -41,76 +45,77 @@ body {
         }
 
 section {
-    height: 500px;
-   /* background-color: aqua; */
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    /*background-color: aqua;*/
     }
 
-.columna1{
-    float: left;
-    padding-left: 90px;
-    width: 47%;
-    height: 170px;
-    font-family: Verdana;
-   /* background-color: rgb(255, 0, 195); */
-}
+    .columna1{
+        align-items: flex-start;
+        padding-left: 90px;
+        width: 47%;
+        font-family: Verdana;
+        /*background-color: rgb(255, 0, 195);*/
+    }
 
-.columna1 h1{
-    padding-bottom: 20px;
-}
+        .columna1 h1{
+            padding-bottom: 20px;
+        }
 
-.columna1 h5{
-    padding-bottom: 20px;
-}
+        .columna1 h5{
+            padding-bottom: 20px;
+        }
 
-.columna1 p{
-    padding-bottom: 10px;
-    font-family: Verdana;
-    font-size: 13px;
-    color: lightskyblue;
-}
+        .columna1 p{
+            padding-bottom: 10px;
+            font-family: Verdana;
+            font-size: 13px;
+            color: blue;
+        }
 
-.boton{
-    width: 150px;
+        .boton{
+            width: 150px;
+            font-family: Verdana;
+            font-size: 13px;
+            color: white;
+            background-color: blue;
+            border-radius: 4px;
+            padding: 10px 30px 10px 30px;
 
-    font-family: Verdana;
-    font-size: 13px;
-    color: white;
-    background-color: lightskyblue;
-    border-radius: 4px;
-    padding: 10px 30px 10px 30px;
+        }
 
-}
+    .columna2{
+        align-items: flex-end;      
+        width: 45%;
+        padding-top: 300px;
+        /*background-color: rgb(255, 242, 0);*/
+    }
 
-.columna2{
-    position: absolute;
-    right: 90px;
-    bottom: 10px;
-    width: 45%;
-    height: 170px;
-   /* background-color: rgb(255, 242, 0); */
-}
+        .programas {
+            width: 60%;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            /*background-color: blue;*/
+            padding-top: 10px;
+        }
 
-.programas {
-    width: 60%;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-   /* background-color: blue; */
-    padding-top: 10px;
-  }
+        #Photoshop{
+            width: 30px;
+        }
 
-#Photoshop{
-    width: 30px;
-}
+        #Illustrator{
+            width: 30px;
+        }
 
-#Illustrator{
-    width: 30px;
-}
+        #Paleta{
+            width: 30%;
+        }
+    
 
-#Paleta{
-    width: 30%;
-}
-  
 
 
 
