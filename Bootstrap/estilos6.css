@@ -1,0 +1,47 @@
+div {
+    box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+}
+
+.izquierda{
+    height: 90vh;
+}
+
+#izsup{
+    background-color: white;
+    height: 20vh;
+}
+
+#izinf {
+    background-color: yellow;
+    height: 70vh;
+}
+
+.centro{
+    height: 90vh;
+}
+
+#centrosup{
+    background-color: green;
+    height: 20vh;
+}
+
+#centromed{
+    background-color: gold;
+    height: 70vh;
+}
+
+#centroinf{
+    background-color: greenyellow;
+    height: 10vh;    
+}
+
+.derecha{
+    background-color: yellowgreen;
+    height: 100vh;
+}
+
+
+
+
+
+

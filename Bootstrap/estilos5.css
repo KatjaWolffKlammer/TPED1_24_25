@@ -1,0 +1,37 @@
+div {
+    box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+}
+#nav1{
+    background-color:white;
+    height: 20vh;
+}
+
+#nav2{
+    background-color:rebeccapurple;
+    height: 20vh;
+}
+
+#nav3{
+    background-color:white;
+    height: 20vh;
+}
+
+#izquierda {
+    background-color: violet;
+    height: 70vh;
+}   
+
+#centro{
+    background-color:pink;
+    height: 70vh;
+}
+
+#derecha {
+    background-color: palevioletred;
+    height: 70vh;
+}  
+
+#pie{
+    background-color: yellow;
+    height: 10vh;
+}

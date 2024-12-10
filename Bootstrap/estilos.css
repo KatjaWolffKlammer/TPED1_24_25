@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: beige;
+    
+  }
+
+  h1{
+    color: rgb(55, 108, 108);
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 60px;
+    
+  }
+
+  ol{
+    color: rgb(103, 103, 103);
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 50px;
+  }
