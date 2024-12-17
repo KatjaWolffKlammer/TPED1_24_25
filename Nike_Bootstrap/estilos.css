@@ -45,7 +45,13 @@
         color: white;
     }
 
-    
+    #izquierda{
+        padding-right: 100px;
+    }
+
+    #derecha{
+        padding-right: 50px;
+    }
      
     #AlgunSitio:hover{
         color: rebeccapurple;
