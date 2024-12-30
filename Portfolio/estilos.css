@@ -1,0 +1,76 @@
+.sticky-top {
+    z-index: 1030;
+}
+
+#titulo{
+    padding-right: 600px;
+}
+
+#me{
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+#gvalogo{
+    width: 300px;
+}
+
+#illustrator{
+    width: 30px;
+    margin: 10px;
+}
+
+#photoshop{
+    width: 30px;
+    margin: 10px;
+}
+
+#indesign{
+    width: 30px;
+    margin: 10px;
+}
+
+#visual{
+    width: 30px;
+    margin: 10px;
+}
+
+#apps{
+    margin-left: 70px;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+

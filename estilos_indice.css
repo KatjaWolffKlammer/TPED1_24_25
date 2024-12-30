@@ -26,4 +26,19 @@ body {
     font-family: Arial;
     font-size: 20px;
     margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  h2{
+    color: rgb(55, 108, 108);
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  a{
+    color: rgb(103, 103, 103);
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 50px;
   }

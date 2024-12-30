@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="titulo">Mi Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobremi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sobre mí -->
+    <section id="sobremi" class="py-5 text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12">
+                    <img src="Images/me.jpg" alt="Mi Foto" class="img-fluid rounded" id="me">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2>Sobre Mí</h2>
+                    <p>Soy una estudiante de diseño gráfico apasionada por la creatividad y la innovación visual. Mi objetivo es dar vida a ideas únicas a través del diseño.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Estudios y Habilidades</h2>
+            <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <h4>Estudios</h4>
+                    <p>Bachillerato científico, IES LLOIXA, Sant Joan d'Alacant</p>
+                    <p>Estudios Superiores, EASDA, Alicante</p>
+                    <img src="Images/logo-gva.png" id="gvalogo">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <ul class="list-unstyled" id="apps">
+                    <h4>Habilidades</h4>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="Images/illustrator.png" alt="Illustrator" class="me-2" id="illustrator">
+                            Adobe Illustrator
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="Images/photoshop.png" alt="Photoshop" class="me-2" id="photoshop">
+                            Adobe Photoshop
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="Images/indesign.png" alt="Indesign" class="me-2" id="indesign">
+                            Adobe Indesign
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <img src="Images/visual.png" alt="Visual" class="me-2" id="visual">
+                            Visual Studio Code
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Mi Experiencia</h2>
+            <p class="text-center">Durante mi formación, he trabajado en múltiples proyectos académicos y personales que me han permitido desarrollar habilidades técnicas y creativas. Desde branding hasta diseño digital, cada proyecto me ha desafiado y motivado a mejorar.</p>
+        </div>
+    </section>
+
+    <!-- Carrousel Proyectos -->
+    <section id="proyectos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Proyectos Destacados</h2>
+            <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/publi.jpg" class="d-block w-100" alt="Proyecto 1" id="publi">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/mapa.jpg" class="d-block w-100" alt="Proyecto 2" id="mapa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/viagra.jpg" class="d-block w-100" alt="Proyecto 3" id="viagra">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Obras de arte -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Obras de Arte Destacadas</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <img src="Images/obra1.jpg" class="img-fluid" alt="Obra 1">
+                    <p class="mt-2">Crítica al capitalismo.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <img src="Images/obra2.jpg" class="img-fluid" alt="Obra 2">
+                    <p class="mt-2">Crítica al racismo.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <img src="Images/obra3.jpg" class="img-fluid" alt="Obra 3">
+                    <p class="mt-2">Crítica al ideal impuesto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Otros Proyectos -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Otros Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/gusano.jpg" class="card-img-top" alt="Proyecto 1" id="gusano">
+                        <div class="card-body">
+                            <h6 class="card-title">¿Qué es un miriápodo? - National Geographic</h6>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal1">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/perfume.PNG" class="card-img-top" alt="Proyecto 2" id="perfume">
+                        <div class="card-body">
+                            <h6 class="card-title">Blue Shine Perfume - Mercadona</h6>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal2">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/cd.jpg" class="card-img-top" alt="Proyecto 3" id="cd">
+                        <div class="card-body">
+                            <h6 class="card-title">The House Of Wolves - Bring Me The Horizon</h6>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal3">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="projectModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">¿Qué es un miriápodo? - National Geographic</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    Ilustración editorial para la sección de miriápodos de la revista National Geographic. Proyecto realizado para la asignatura de Ilustración Aplicada al Diseño.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Blue Shine Perfume - Mercadona</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    Ilustración de producto para la colonia Blue Shine del Mercadona. Proyecto realizado para la asignatura de Diseño Básico 3.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">The House Of Wolves - Bring Me The Horizon</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    Iluestración de producto para el single The House Of Wolves de Bring Me The Horizon. Proyecto realizado para la asignatura de Diseño Básico 3.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Galería Imágenes  -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Galería</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="image-container">
+                        <img src="Images/imagen1.png" class="img-fluid" alt="Imagen 1">
+                        <div class="overlay">
+                            <p>Cartel 8M 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="image-container">
+                        <img src="Images/imagen2.jpg" class="img-fluid" alt="Imagen 2">
+                        <div class="overlay">
+                            <p>Cartel 8M 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="image-container">
+                        <img src="Images/imagen3.jpg" class="img-fluid" alt="Imagen 3">
+                        <div class="overlay">
+                            <p>Cartel película Bohemian Rhapsody</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="image-container">
+                        <img src="Images/imagen4.jpg" class="img-fluid" alt="Imagen 4">
+                        <div class="overlay">
+                            <p>Cartel Academia Baile 180, Madrid</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Mi Portfolio. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
