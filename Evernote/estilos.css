@@ -1,0 +1,61 @@
+#logo{
+    margin-left: 50px;
+    margin: 30px;
+}
+
+#links{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 8pt;
+    color: green;
+}
+
+#links2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 8pt;
+    color: green;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    padding: 60px 0;
+}
+
+#HeroText{
+    padding-top: 65px;
+}
+
+.hero h1 {
+    color: rgb(59, 122, 184);
+    font-weight: 400;
+}
+
+.hero h6 {
+    color: green;
+    font-size: 9pt;
+    font-weight: 400;
+}
+
+#Seccion h6{
+    padding-top: 20px;
+}
+
+#Seccion p{
+    font-size: 10pt;
+}
+
+#Stories h4{
+    font-weight: 400;
+}
+
+#Stories h6{
+    font-size: 8pt;
+    font-weight: 400;
+}
+
+
+
