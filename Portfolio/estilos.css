@@ -7,11 +7,12 @@
 }
 
 #me{
-    height: 400px;
+    width: 400px;
     margin-bottom: 20px;
 }
 
 #gvalogo{
+    padding-top: 20px;
     width: 300px;
 }
 
