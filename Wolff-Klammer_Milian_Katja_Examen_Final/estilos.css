@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+#Tendencias{
+    margin: 5%;
+}
+
+#izquierda{
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+#derecha{
+    margin: 20px;
+}
+
+main{
+    padding-top: 20px;
+    background-color: rgb(237, 237, 237);
+}
+
+footer a{
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    color: lightgray;
+}
+
+footer p{
+    color: lightgray;
+}
+
